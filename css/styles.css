@@ -1,0 +1,25 @@
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #4285F4, #4FC3F7, #1CE9B6,#00BFA5 );
+    color: white;
+}
+
+footer {
+    background-image: linear-gradient(#B3E5FC, white);
+    padding: 20px 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 50px;
+  }
+
+  #android{
+    width: 200px;
+
+  }

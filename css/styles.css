@@ -3,7 +3,7 @@ h1, h2, h3 {
 }
 
 .jumbotron {
-    padding: 30px;
+    padding: 80px;
     background-image: linear-gradient(to right, #4285F4, #4FC3F7, #1CE9B6,#00BFA5 );
     color: white;
 }
@@ -23,3 +23,13 @@ footer {
     width: 200px;
 
   }
+
+  .navbar{
+    background-image: linear-gradient(to right, #4285F4, #4FC3F7, #1CE9B6,#00BFA5 );
+  }
+  .nav-link , .navbar-brand { 
+    cursor: pointer;
+}
+.nav-link{ margin-right: 1em !important;}
+
+.navbar-collapse{ justify-content: flex-end;}

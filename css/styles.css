@@ -19,17 +19,33 @@ footer {
     min-height: 50px;
   }
 
-  #android{
+  #android {
     width: 200px;
 
   }
-
-  .navbar{
+  .navbar {
     background-image: linear-gradient(to right, #4285F4, #4FC3F7, #1CE9B6,#00BFA5 );
   }
   .nav-link , .navbar-brand { 
     cursor: pointer;
+  }
+.nav-link { 
+    margin-right: 1em !important;
 }
-.nav-link{ margin-right: 1em !important;}
 
-.navbar-collapse{ justify-content: flex-end;}
+.navbar-collapse { 
+    justify-content: flex-end;
+}
+
+.desc {
+    padding: 2em;
+}
+
+.desc h3 {
+    color: #dd00ae
+}
+
+.desc p {
+    line-height: 2;
+    text-align: justify;
+}
